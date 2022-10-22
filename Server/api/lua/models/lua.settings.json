@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "luas",
+  "info": {
+    "name": "Lua"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "authorID": {
+      "type": "string"
+    },
+    "Lua": {
+      "type": "text"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "yudi_lua_containers",
+  "info": {
+    "name": "YudiLuaContainer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "authorID": {
+      "type": "string"
+    },
+    "Lua": {
+      "type": "text"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

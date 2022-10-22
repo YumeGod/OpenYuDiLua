@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/yudi-lua-containers",
+      "handler": "yudi-lua-container.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/yudi-lua-containers/count",
+      "handler": "yudi-lua-container.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/yudi-lua-containers/:id",
+      "handler": "yudi-lua-container.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/yudi-lua-containers",
+      "handler": "yudi-lua-container.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/yudi-lua-containers/:id",
+      "handler": "yudi-lua-container.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/yudi-lua-containers/:id",
+      "handler": "yudi-lua-container.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

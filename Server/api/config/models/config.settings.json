@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "configs",
+  "info": {
+    "name": "Config"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ConfigID": {
+      "type": "uid"
+    },
+    "ConfigName": {
+      "type": "string"
+    },
+    "Contains": {
+      "type": "text"
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "config"
+    },
+    "authorID": {
+      "type": "string"
+    },
+    "luas": {
+      "collection": "lua"
+    }
+  }
+}
